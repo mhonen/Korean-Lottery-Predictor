@@ -54,7 +54,7 @@ def predict_future_numbers(past_numbers):
 
   print('Numbers to Play: ', numbers_to_play)
 
-#Run prediction on bonum number 1-45
+#Run prediction on bonus number 1-45
 def predict_future_bonus_number(past_bonus_numbers):
     counter = Counter(past_bonus_numbers)
     most_common = counter.most_common(1)
